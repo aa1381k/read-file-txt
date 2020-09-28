@@ -16,3 +16,4 @@ for rand in range (5):
     rand=rand+1
     file=open("c:\\users\ALI\desktop\Random.txt","a")
     file.write(str(random_num)+"\n")
+file.close()
